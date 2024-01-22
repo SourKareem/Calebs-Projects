@@ -1,1 +1,1 @@
-I have 3 PowerBI projects to showcase my ability to create reports and dashboards using data and PowerBi as the platform. 
+This is my portfolio of Data Analyst Projects. This includes Power Bi dashboards, Jupyter Notebooks, SQL skills, and more. I show my skills of Python programming, data visualization, data cleaing, and overall analysis of data.
