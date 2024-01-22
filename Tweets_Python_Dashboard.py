@@ -2,7 +2,6 @@ import streamlit as st
 import pandas as pd
 import numpy as np
 import plotly.express as px
-import matplotlib.pyplot as plt
 
 st.title("Sentiment Analysis of tweets about US Airline")
 st.sidebar.title("Sentiment Analysis of tweets about US Airline")
@@ -59,17 +58,3 @@ if len(choice) > 0:
     fig_choice = px.histogram(choice_data, x='airline', y='airline_sentiment', histfunc='count', color='airline_sentiment',
     facet_col='airline_sentiment', labels={'airline_sentiment':'tweets'}, height=600, width=800)
     st.plotly_chart(fig_choice)
-
-#st.sidebar.header("Word Cloud")
-#word_sentiment = st.sidebar.radio('Display word cloud for what sentiment?', ('positive', 'neutral', 'negative'))
-
-#if not st.sidebar.checkbox("Close", True, key='3'):
-    #st.header('Word cloud for %s sentiment' % (word_sentiment))
-    #df = data[data['airline_sentiment']==word_sentiment]
-    #words = ' '.join(df['text'])
-    #processed_words = ' '.join([word for word in words.split() if 'http' not in word and not word.startswith('@') and word != 'RT'])
-    #wordcloud = WordCloud(stopwords=STOPWORDS, background_color='white', height=640, width=800).generate(processed_words)
-    #plt.imshow(wordcloud)
-    #plt.xticks([])
-    #plt.yticks([])
-    #st.pyplot()
