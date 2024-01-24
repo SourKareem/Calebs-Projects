@@ -1,1 +1,1 @@
-This is my portfolio of Data Analyst Projects. This includes Power Bi dashboards, Jupyter Notebooks, SQL skills, and more. I show my skills of Python programming, data visualization, data cleaing, and overall analysis of data.
+This is my portfolio of Data Analyst Projects. This includes Power Bi dashboards, Jupyter Notebooks, SQL skills, and Machine Learning. I show my skills of Python programming, data visualization, data cleaing, and overall analysis of data.
